@@ -1,0 +1,21 @@
+.every {
+    position: relative;
+    text-align: center;
+    top: 150px;
+    font-size: 40px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.spam {
+    position: relative;
+    color: white;
+    text-align: center;
+    display: block;
+    top: 140px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}

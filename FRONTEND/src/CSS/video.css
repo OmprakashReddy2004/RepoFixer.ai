@@ -1,0 +1,107 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.video {
+    border: 2px solid rgb(255, 255, 255);
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+
+}
+
+.video-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task {
+    color: #9ca3af;
+    position: relative;
+    top: 70px;
+    font-size: 18px;
+}
+
+.inputbar {
+    width: 100%;
+    max-width: 900px;
+    position: relative;
+    top: 100px;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background: #000000;
+    border-radius: 24px;
+    padding: 20px 18px;
+}
+
+.inputbar input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.inputbar input::placeholder {
+    color: #9ca3af;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.pill {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background: #1f2937;
+    border: none;
+    border-radius: 14px;
+    padding: 8px 12px;
+    color: #e5e7eb;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.pill:hover {
+    background: #374151;
+}
+
+.workspace .dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+}
+
+.send {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    background: #1f2937;
+    color: #e5e7eb;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.send:hover {
+    background: #374151;
+    transform: translateY(-1px);
+}
+
+.task {
+    color: white;
+}
