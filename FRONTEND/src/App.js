@@ -1,10 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
+import FloatingLines from "./components/FloatingLines";
 import Navbar from "./components/Navbar";
+import Things from "./components/Things";
 import Body from "./components/body";
 import Video from "./components/video";
-import FloatingLines from "./components/FloatingLines";
-import Things from "./components/Things";
 
 function App() {
   return (

@@ -1,6 +1,5 @@
-import React from "react";
-import "../CSS/navbar.css";
 import { useEffect, useState } from "react";
+import "../CSS/navbar.css";
 
 export default function Navbar() {
   const [shrink, setShrink] = useState(false);
@@ -40,9 +39,20 @@ export default function Navbar() {
           </div>
           <div className="change">
             <button className="toggle">
-              <img src="moon.png" alt="" />
+              <img src="public/moon.png" alt="" />
             </button>
-            <button className="start">Get Started →</button>
+            <button
+  className="start"
+  onClick={(e) => {
+    e.preventDefault();
+    window.location.assign(
+      "http://127.0.0.1:8000/api/auth/github/login/"
+    );
+  }}
+>
+  Get Started →
+</button>
+
           </div>
         </div>
       </section>
