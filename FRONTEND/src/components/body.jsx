@@ -1,6 +1,4 @@
-import React from "react";
 import "../CSS/body.css";
-import FloatingLines from "./FloatingLines.jsx";
 export default function Body() {
   return (
     <>
@@ -9,7 +7,7 @@ export default function Body() {
           <div className="main">
             Connect Your
             <br />
-            <span className="sub">Git & AI Debugs</span>Like
+            <span className="sub">GitHub & AI Debugs</span>Like
             <br />
             Humans
           </div>
